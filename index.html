@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About HiringMine</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <!-- Header -->
+<header class="border-b">
+  <div class="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-10 py-4">
+
+    <!-- Left: Logo -->
+    <a href="/" class="flex items-center">
+      <img src="assests/Hiring-Mine-Logo.png" alt="HiringMine Logo" class="h-8 w-auto" />
+    </a>
+
+    <!-- Center: Desktop Nav -->
+    <div class="hidden md:flex flex-1 justify-center">
+      <nav class="flex space-x-6 text-sm font-medium items-center">
+        <a href="#" class="hover:text-purple-600">About Us</a>
+        <a href="#" class="hover:text-purple-600">Jobs</a>
+        <a href="#" class="hover:text-purple-600">Mentorship</a>
+        <a href="#" class="hover:text-purple-600">Practice</a>
+        <a href="#" class="hover:text-purple-600">Login</a>
+        <a href="#" class="hover:text-purple-600">Join Now</a>
+        <a href="#" class="text-purple-600 font-semibold">Business</a>
+        <a href="#" class="hover:text-purple-600">More ▾</a>
+      </nav>
+    </div>
+
+    <!-- Right: Dark Mode + Mobile Toggle -->
+    <div class="flex items-center space-x-4">
+      <!-- Theme Toggle -->
+      <button
+        class="bg-gray-100 rounded-full w-9 h-9 flex items-center justify-center text-xl hover:bg-gray-200"
+        aria-label="Toggle Dark Mode"
+      >
+        ☀︎
+      </button>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden text-2xl" onclick="toggleMenu()">☰</button>
+    </div>
+  </div>
+
+  <!-- Mobile Nav -->
+  <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+    <div class="flex flex-col space-y-2 text-sm font-medium">
+      <a href="#" class="hover:text-purple-600">About Us</a>
+      <a href="#" class="hover:text-purple-600">Jobs</a>
+      <a href="#" class="hover:text-purple-600">Mentorship</a>
+      <a href="#" class="hover:text-purple-600">Practice</a>
+      <a href="#" class="hover:text-purple-600">Login</a>
+      <a href="#" class="hover:text-purple-600">Join Now</a>
+      <a href="#" class="text-purple-600 font-semibold">Business</a>
+      <a href="#" class="hover:text-purple-600">More ▾</a>
+    </div>
+  </div>
+</header>
+
+  <!-- Hero Section -->
+  <section class="px-4 md:px-10 py-16 max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row md:items-center justify-between">
+      
+      <!-- Left Text Content (should come first on all screens) -->
+      <div class="w-full md:w-1/2 order-1">
+        <h2 class="text-lg text-gray-500 mb-2">About us</h2>
+        <h1 class="text-4xl font-bold leading-tight mb-4">
+          Where Talent <br />
+          <span class="text-purple-600">Meets Opportunities</span>
+        </h1>
+        <p class="text-gray-600 text-lg">
+          The largest community engagement platform built to help talent.
+        </p>
+      </div>
+
+      <!-- Right Image -->
+      <div class="w-full md:w-1/2 flex justify-center mb-10 md:mb-0 order-2">
+        <img src="assests/header-image-people.png"Team Members" class="w-full max-w-md rounded-xl shadow-md" />
+      </div>
+    </div>
+  </section>
+
+<!-- 2nd Section Start -->
+
+<!-- About Section -->
+<section class="bg-gray-50 px-4 md:px-10 py-20">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+    
+    <!-- Belief Card -->
+    <div class="bg-white p-10 rounded-xl shadow-md text-center w-full md:w-1/2">
+      <h2 class="text-2xl md:text-3xl font-bold mb-2">
+        HiringMine believes <br> that you can
+      </h2>
+      <p class="text-purple-600 text-xl font-semibold mt-2">#ShineFromTheMine</p>
+    </div>
+
+    <!-- About Text -->
+    <div class="w-full md:w-1/2">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4">HiringMine</h2>
+      <p class="text-gray-700 mb-4">
+        Rooted in the belief that every individual holds untapped brilliance,
+        HiringMine is a talent discovery and hiring platform where raw potential meets real opportunity.
+      </p>
+      <p class="text-gray-700 mb-4">
+        Founded by <strong>Jaffar Aman</strong> & <strong>Muhammad Sufiyan</strong>, HiringMine is a launchpad for students and freshers to learn, grow, and get discovered.
+        Our mission? To equip emerging talent with the tools and exposure they need to shine bright — right from the mine.
+      </p>
+      <p class="text-gray-700">
+        Top recruiters from leading companies like Amazon, Reliance, Tata, Mahindra, and others use HiringMine to connect with high-potential candidates and hire smart.
+        Over 3000+ users, 2000+ opportunities. <br>And we're just getting started.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- 3rd Section Start -->
+
+<!-- Features Grid Section -->
+<section class="bg-gray-50 px-4 md:px-10 py-20">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-2 gap-8">
+
+    <!-- Feature 1 -->
+    <div class="bg-pink-200 p-8 rounded-2xl shadow-lg">
+      <h3 class="text-2xl font-bold mb-4">Learn & Grow</h3>
+      <p class="text-gray-800 mb-6 font-semibold">
+        Access curated learning paths, resources, and insights designed to help students and freshers stand out in today’s competitive job market.
+      </p>
+      <img src="assests/learn and grow.webp" alt="Learn & Grow" class="w-40 mx-auto h-30">
+    </div>
+
+    <!-- Feature 2 -->
+    <div class="bg-blue-200 p-8 rounded-2xl shadow-lg">
+      <h3 class="text-2xl font-bold mb-4">AI Resume Checker</h3>
+      <p class="text-gray-800 mb-6 font-semibold">
+        Get instant, intelligent feedback on your resume. Optimize it for recruiter attention and increase your chances of getting hired — all powered by AI.
+      </p>
+      <img src="assests/ai resume checker.webp" alt="AI Resume Checker" class="w-40 mx-auto h-30">
+    </div>
+
+   <!-- Feature 3 -->
+<div class="bg-yellow-200 p-8 rounded-2xl shadow-lg md:row-span-2 flex flex-col">
+  <h3 class="text-2xl font-bold mb-4">Mentorship & Guidance</h3>
+  <p class="text-gray-800 font-semibold">
+    Connect with experienced industry professionals and tech mentors. Learn what it takes to break into top roles — with real talk and real stories.
+  </p>
+  <img src="assests/mentorship.webp" alt="Mentorship" class="h-[280px] mx-auto object-contain mt-2">
+</div>
+
+
+    <!-- Feature 4 -->
+    <div class="bg-orange-200 p-8 rounded-2xl shadow-lg">
+      <h3 class="text-2xl font-bold mb-4">Showcase & Compete</h3>
+      <p class="text-gray-800 mb-6 font-semibold">
+        From challenges to portfolio showcases — prove your skills, shine in public, and earn the spotlight you deserve.
+      </p>
+      <img src="assests/showcase.webp" alt="Showcase & Compete" class="w-40 mx-auto h-30">
+    </div>
+
+    <!-- Feature 5 -->
+    <div class="bg-purple-200 p-8 rounded-2xl shadow-lg">
+      <h3 class="text-2xl font-bold mb-4">Jobs from the Mine</h3>
+      <p class="text-gray-800 mb-6 font-semibold">
+        Discover handpicked hiring opportunities extracted directly from job posters and graphics using our AI. No noise, just the real deal.
+      </p>
+      <img src="assests/jobs from the mine.webp" alt="Jobs from the Mine" class="w-40 mx-auto h-30">
+    </div>
+
+  </div>
+</section>  
+
+<!-- 4th Section Start -->
+
+<section class="bg-indigo-50 py-16 px-4">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
+    <!-- Text -->
+    <div class="md:w-1/2">
+      <h2 class="text-3xl font-bold mb-4">The HiringMine's Journey 🚀</h2>
+      <p class="text-gray-700 mb-4">
+        What began as a college project has now transformed into a tech-driven platform that’s democratizing opportunities for students and graduates across the country.
+      </p>
+      <p class="text-gray-700">
+        We started small — reaching just a few campuses — but with perseverance, our team scaled the platform to reach millions of users and thousands of companies and institutes.
+      </p>
+    </div>
+
+    <!-- Image -->
+    <div class="md:w-1/2">
+      <img src="assests/journey-image.webp" alt="Journey Image" class="rounded-2xl shadow-lg ">
+    </div>
+  </div>
+</section>
+<!-- 5th Section Start -->
+<section class="bg-indigo-50 py-16 px-2 sm:px-4">
+  <h2 class="text-4xl font-bold text-center mb-10">Our Mission & Vision</h2>
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">
+    <!-- Mission Box -->
+    <div class="bg-white p-6 rounded-xl shadow text-gray-800">
+      <h3 class="text-lg font-bold text-purple-600 mb-2">Mission</h3>
+      <p class="font-semibold">
+        To bridge the gap between talent and opportunity by enabling students, graduates, and professionals to showcase their skills, participate in real-time challenges, and gain meaningful exposure to top organizations.
+      </p>
+    </div>
+    
+    <!-- Vision Box -->
+    <div class="bg-white p-6 rounded-xl shadow text-gray-800">
+      <h3 class="text-lg font-bold text-purple-600 mb-2">Vision</h3>
+      <p class="font-semibold">
+        To become the go-to global talent discovery and engagement platform that empowers people to unlock their true potential and drive impact across industries and communities.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- 6th Section Start -->
+<section class="bg-indigo-50 py-16 px-4">
+  <h2 class="text-3xl font-bold text-center mb-10">HiringMine In The News</h2>
+  <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
+    <!-- News Card 1 -->
+    <div class="bg-white rounded-xl shadow overflow-hidden">
+      <img src="assests/blog1.jpg" alt="News 1" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h4 class="font-semibold text-purple-600 mb-1">HiringMine secures new funding round</h4>
+        <p class="text-sm text-gray-700">We’ve successfully raised a new round to accelerate our platform’s growth and innovation across regions.</p>
+      </div>
+    </div>
+
+    <!-- News Card 2 -->
+    <div class="bg-white rounded-xl shadow overflow-hidden">
+      <img src="assests/blog2.jpg" alt="News 2" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h4 class="font-semibold text-purple-600 mb-1">Featured in Forbes 30 Under 30</h4>
+        <p class="text-sm text-gray-700">Our founder was recognized in Forbes 30 Under 30 for transforming talent engagement in India.</p>
+      </div>
+    </div>
+
+    <!-- News Card 3 -->
+    <div class="bg-white rounded-xl shadow overflow-hidden">
+      <img src="assests/blog3.jpg" alt="News 3" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h4 class="font-semibold text-purple-600 mb-1">Launch of Hiring Campus</h4>
+        <p class="text-sm text-gray-700">Introducing HiringMine Campus – a gamified and competitive learning environment for students.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 7th Section Start -->
+<section class="bg-indigo-50 py-16 px-4">
+  <div class="text-center mb-10">
+    <h2 class="text-4xl font-bold">Get in Touch</h2>
+    <p class="text-gray-700 mt-7">Have questions, suggestions, or want to collaborate? Fill the form and our team will get back to you soon.</p>
+  </div>
+  <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow space-y-4">
+    <div class="grid md:grid-cols-2 gap-4">
+      <input type="text" placeholder="First Name *" class="border p-3 rounded w-full">
+      <input type="text" placeholder="Last Name *" class="border p-3 rounded w-full">
+    </div>
+    <input type="email" placeholder="Email *" class="border p-3 rounded w-full">
+    <textarea rows="5" placeholder="Message *" class="border p-3 rounded w-full"></textarea>
+    <div class="text-center">
+      <button class="bg-purple-600 text-white px-6 py-2 rounded shadow hover:bg-purple-700 transition">SUBMIT</button>
+    </div>
+  </div>
+</section>
+<!-- 8th Section Start -->
+<footer class="bg-gradient-to-r from-indigo-700 to-purple-600 text-white py-12 px-6">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+    <!-- Logo & Description -->
+    <div>
+  <img src="assests/Hiring-Mine-Logo.png" alt="HiringMine Logo" class="h-10 mb-3 opacity-100">
+  <p class="text-sm font-semibold mb-2">Built with ❤️ in Pakistan for the World.</p>
+  <p class="text-sm leading-relaxed">
+    HiringMine bridges top talent and visionary companies through a smart, streamlined platform. Empowering candidates to shine, and employers to hire better — faster. Your next opportunity, powered by technology and trust.
+  </p>
+</div>
+
+
+
+    <!-- Contact Info -->
+    <div>
+      <h4 class="font-semibold text-lg mb-3">Contact Us</h4>
+      <p class="text-sm mb-3 flex items-center gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 fill-white" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+        portal.hiringmine@gmail.com
+      </p>
+      <p class="text-sm mb-1 cursor-pointer hover:underline">Life at HiringMine</p>
+      <p class="text-sm cursor-pointer hover:underline">About HiringMine</p>
+    </div>
+
+    <!-- Social Links -->
+    <div>
+      <h4 class="font-semibold text-lg mb-3">Follow us</h4>
+      <div class="flex space-x-6 text-2xl">
+        <a href="#" aria-label="Facebook" class="hover:text-purple-300"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="WhatsApp" class="hover:text-purple-300"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" aria-label="Instagram" class="hover:text-purple-300"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="LinkedIn" class="hover:text-purple-300"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center text-sm mt-12 border-t border-white border-opacity-30 pt-4">
+    <a href="#" class="mr-6 hover:underline">Privacy Policy</a>
+    <a href="#" class="hover:underline">Terms and Condition</a>
+    <p class="mt-2 font-semibold">Copyright Hiringmine 2025. All Rights Reserved</p>
+  </div>
+</footer>
+</body>
+</html>
